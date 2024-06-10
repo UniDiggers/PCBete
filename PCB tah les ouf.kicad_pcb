@@ -543,7 +543,7 @@
 			(pintype "passive+no_connect")
 			(uuid "7639aa82-2b95-4018-9da9-213bf6e74296")
 		)
-		(model "C:/Users/tinti/Documents/KiCad/Devboard/USB-Type-C/HRO_TYPE-C-31-M-12.step"
+		(model "${KIPRJMOD}/3D/USB-Type-C/HRO_TYPE-C-31-M-12.step"
 			(offset
 				(xyz -4.5 -3.5 0)
 			)
