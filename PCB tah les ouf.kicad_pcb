@@ -231,6 +231,8 @@
 	(net 110 "/GPIO0")
 	(net 111 "unconnected-(BUILTIN1-Pad2)")
 	(net 112 "unconnected-(BUILTIN1-Pad1)")
+	(net 113 "unconnected-(U6-NC-Pad6)")
+	(net 114 "unconnected-(U6-Pad5)")
 	(footprint "TMC2209:MODULE_TMC2209_SILENTSTEPSTICK"
 		(layer "F.Cu")
 		(uuid "03b30407-1b25-4d8f-a0d9-c24cfaa9d473")
@@ -3104,6 +3106,306 @@
 		(model "${KIPRJMOD}/3D/USB-Type-C/HRO_TYPE-C-31-M-12.step"
 			(offset
 				(xyz -4.5 -3.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Package_DFN_QFN:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
+		(layer "F.Cu")
+		(uuid "cdb2ca71-bfcf-4bf8-9082-b5b8c9192687")
+		(at 129.8 68.4875 90)
+		(descr "U-DFN2510-10 package used by Diodes Incorporated (https://www.diodes.com/assets/Package-Files/U-DFN2510-10-Type-CJ.pdf)")
+		(tags "UDFN-10 U-DFN2510-10 Diodes")
+		(property "Reference" "U6"
+			(at 0 -2.54 270)
+			(layer "F.SilkS")
+			(uuid "310daa6c-d982-49bd-b06d-e6314e3a35c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "D3V3XA4B10LP"
+			(at 0 2.54 270)
+			(layer "F.Fab")
+			(uuid "52fb35a3-929d-4f59-8cbc-f752904ba298")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0311e959-095d-4ed5-b1e5-c5c4ca1ce19b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa7c8b3e-6e39-482b-8599-1c7e566b3079")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4-Channel Low Capacitance TVS Diode Array, DFN-10"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c92decd4-7eba-4b9e-b60c-9dab86b29f66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "Diodes*UDFN*1.0x2.5mm*P0.5mm*")
+		(path "/ffa298cc-d150-468c-8357-106fc5f00afa")
+		(sheetname "Racine")
+		(sheetfile "PCB tah les ouf.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0.5 -1.36)
+			(end -0.5 -1.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "81c2c9b9-0a7e-4dad-a3bd-a16b1b17bb26")
+		)
+		(fp_line
+			(start 0.5 1.36)
+			(end -0.5 1.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "360df470-9b2c-4eeb-ba2e-716d6a1f048a")
+		)
+		(fp_poly
+			(pts
+				(xy -0.89 -1.31) (xy -1.17 -1.31) (xy -0.89 -1.59) (xy -0.89 -1.31)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "d2d0245b-5dc9-44d1-9e77-cd1c1f5b75c3")
+		)
+		(fp_line
+			(start 0.95 -1.5)
+			(end 0.95 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "31ab5b7e-0309-4033-aa3c-cfabbe334c0d")
+		)
+		(fp_line
+			(start -0.95 -1.5)
+			(end 0.95 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "506b0ea4-173a-4c52-af68-af99acf578a5")
+		)
+		(fp_line
+			(start 0.95 1.5)
+			(end -0.95 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a1ee4a92-e921-4a0b-92c5-8aa83ab852fd")
+		)
+		(fp_line
+			(start -0.95 1.5)
+			(end -0.95 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d4ca2385-c6c1-4f5e-86f1-175a82450fe4")
+		)
+		(fp_line
+			(start 0.5 -1.25)
+			(end -0.25 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "12e8f5a2-d5ee-499a-9580-23b3dce3bed2")
+		)
+		(fp_line
+			(start 0.5 -1.25)
+			(end 0.5 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6f610256-7b95-46cc-85f3-2863e39f377b")
+		)
+		(fp_line
+			(start -0.25 -1.25)
+			(end -0.5 -1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ee7e8da5-0325-46a2-957f-beba33e6111d")
+		)
+		(fp_line
+			(start -0.5 -1)
+			(end -0.5 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "72097265-e0ad-4b95-b6c5-b9564a877b16")
+		)
+		(fp_line
+			(start -0.5 1.25)
+			(end 0.5 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "01ff08a9-a5ca-43b4-9c4f-2a28f138d6f7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 360)
+			(layer "F.Fab")
+			(uuid "8b4e7406-927a-40e4-82d4-9d145789e272")
+			(effects
+				(font
+					(size 0.55 0.55)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.3875 -1)
+			(size 0.25 0.625)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 7 "/D_N")
+			(pintype "passive")
+			(uuid "f13b3973-cf74-43fc-a1c8-254282e14562")
+		)
+		(pad "2" smd rect
+			(at -0.3875 -0.5)
+			(size 0.25 0.625)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 3 "/D_P")
+			(pintype "passive")
+			(uuid "968a8fe4-63ff-407a-81af-7afc3c0af15f")
+		)
+		(pad "3" smd rect
+			(at -0.35 0)
+			(size 0.45 0.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 2 "GND")
+			(pinfunction "VSS")
+			(pintype "power_in")
+			(uuid "f1870269-faba-4c54-a0ff-86232260db87")
+		)
+		(pad "4" smd rect
+			(at -0.3875 0.5)
+			(size 0.25 0.625)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 1 "/VCC_5V")
+			(pintype "passive")
+			(uuid "28fbcee3-1852-4e49-9841-d3a1467b8fcc")
+		)
+		(pad "5" smd rect
+			(at -0.3875 1)
+			(size 0.25 0.625)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 114 "unconnected-(U6-Pad5)")
+			(pintype "passive+no_connect")
+			(uuid "8f5448de-ef5a-46dc-bff2-da4c427660c7")
+		)
+		(pad "6" smd rect
+			(at 0.3875 1)
+			(size 0.25 0.625)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 113 "unconnected-(U6-NC-Pad6)")
+			(pinfunction "NC")
+			(pintype "free+no_connect")
+			(uuid "66801569-9bdc-4964-9477-4aae9afbd5c3")
+		)
+		(pad "7" smd rect
+			(at 0.3875 0.5)
+			(size 0.25 0.625)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 1 "/VCC_5V")
+			(pinfunction "NC")
+			(pintype "free")
+			(uuid "59335ea0-be0e-4a1e-b095-54182ab328e6")
+		)
+		(pad "8" smd rect
+			(at 0.4125 0)
+			(size 0.45 0.575)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 2 "GND")
+			(pinfunction "VSS")
+			(pintype "passive")
+			(uuid "5f8f7dce-9025-4149-8a52-6784d187b264")
+		)
+		(pad "9" smd rect
+			(at 0.3875 -0.5)
+			(size 0.25 0.625)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 3 "/D_P")
+			(pinfunction "NC")
+			(pintype "free")
+			(uuid "4d52270d-dc87-4131-b644-84b2a7384549")
+		)
+		(pad "10" smd rect
+			(at 0.3875 -1)
+			(size 0.25 0.625)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 7 "/D_N")
+			(pinfunction "NC")
+			(pintype "free")
+			(uuid "dc9e25a6-ddbc-4ff0-afb5-3859ffdf9b6a")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Diodes_UDFN-10_1.0x2.5mm_P0.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
