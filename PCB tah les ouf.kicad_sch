@@ -3868,12 +3868,6 @@
 		(uuid "13ce17e3-4eb6-4e29-aa76-4d50c4ace640")
 	)
 	(junction
-		(at 127 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26f7cc8c-cb6b-49b5-9284-b3cf5337b3cb")
-	)
-	(junction
 		(at 127 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3902,12 +3896,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57f2dbe5-d5ce-4a37-a2f1-c835abd9e1ee")
-	)
-	(junction
-		(at 152.4 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f7a5a34-caee-4579-8ffc-f148a049afbf")
 	)
 	(junction
 		(at 48.26 82.55)
@@ -3952,12 +3940,6 @@
 		(uuid "8f110d96-ddfb-4ebe-9c51-24a85293dfc0")
 	)
 	(junction
-		(at 127 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95b6007a-ae60-4321-a58c-95a7ff5ae4ce")
-	)
-	(junction
 		(at 165.1 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3974,12 +3956,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adad0639-e440-4db4-a3ec-21ddb4106d0b")
-	)
-	(junction
-		(at 152.4 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c264bc66-bebb-4b81-8c2c-c95918907ffa")
 	)
 	(junction
 		(at 68.58 154.94)
@@ -4167,16 +4143,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 127) (xy 152.4 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21e2fe17-3e30-4c10-9a45-9b4f81562843")
-	)
-	(wire
-		(pts
 			(xy 196.85 243.84) (xy 190.5 243.84)
 		)
 		(stroke
@@ -4187,7 +4153,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 127) (xy 127 127)
+			(xy 115.57 127) (xy 132.08 127)
 		)
 		(stroke
 			(width 0)
@@ -4224,16 +4190,6 @@
 			(type default)
 		)
 		(uuid "31e58034-63a2-45ac-bb5f-3258dbf67c65")
-	)
-	(wire
-		(pts
-			(xy 115.57 134.62) (xy 127 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "333b5a32-0186-4385-8496-750122c8b31b")
 	)
 	(wire
 		(pts
@@ -4487,16 +4443,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 127) (xy 132.08 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8202fe98-b838-4d8f-99da-b5f20b4b2cea")
-	)
-	(wire
-		(pts
 			(xy 308.61 189.23) (xy 320.04 189.23)
 		)
 		(stroke
@@ -4607,7 +4553,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 134.62) (xy 139.7 134.62)
+			(xy 115.57 134.62) (xy 139.7 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4627,7 +4573,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 134.62) (xy 165.1 134.62)
+			(xy 139.7 134.62) (xy 165.1 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4737,16 +4683,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 134.62) (xy 152.4 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b992662d-9128-461c-b0d0-7bb4667e6190")
-	)
-	(wire
-		(pts
 			(xy 137.16 243.84) (xy 137.16 208.28)
 		)
 		(stroke
@@ -4757,7 +4693,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 127) (xy 165.1 127)
+			(xy 147.32 127) (xy 165.1 127)
 		)
 		(stroke
 			(width 0)
@@ -5563,76 +5499,6 @@
 			(project "PCB tah les ouf"
 				(path "/ea97f20c-9bc4-49f4-bc03-d8d68656df8b"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 152.4 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01c83234-f1d2-4c9e-aa1f-32c911521d20")
-		(property "Reference" "C7"
-			(at 156.21 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 156.21 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.3652 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 152.4 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e6c63d4e-8749-494c-8b78-988043d81844")
-		)
-		(pin "1"
-			(uuid "c00923ce-cbc6-493a-9275-bf7678d08cc5")
-		)
-		(instances
-			(project "PCB tah les ouf"
-				(path "/ea97f20c-9bc4-49f4-bc03-d8d68656df8b"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7003,76 +6869,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 127 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "435e4dd6-84cd-4b91-9c49-f6a14c5b0cb7")
-		(property "Reference" "C6"
-			(at 130.81 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 130.81 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 127.9652 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 127 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c24719f7-316d-4bb1-b006-7452ce0a3734")
-		)
-		(pin "1"
-			(uuid "dbc445c8-7385-4dd8-86eb-15332d27fac1")
-		)
-		(instances
-			(project "PCB tah les ouf"
-				(path "/ea97f20c-9bc4-49f4-bc03-d8d68656df8b"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "TMC2209_SILENTSTEPSTICK:TMC2209_SILENTSTEPSTICK")
 		(at 214.63 238.76 0)
 		(unit 1)
@@ -7385,7 +7181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "683891b2-4090-4d7b-a68d-1deb3dcdba42")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 168.91 129.5399 0)
 			(effects
 				(font
@@ -7394,7 +7190,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "10uF"
 			(at 168.91 132.0799 0)
 			(effects
 				(font
@@ -7439,7 +7235,7 @@
 		(instances
 			(project "PCB tah les ouf"
 				(path "/ea97f20c-9bc4-49f4-bc03-d8d68656df8b"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7666,7 +7462,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "10uF"
 			(at 119.38 132.0799 0)
 			(effects
 				(font
@@ -8128,7 +7924,7 @@
 				)
 			)
 		)
-		(property "Value" "AMS1117-3.3"
+		(property "Value" "AMS1117-3.3 (UMW)"
 			(at 139.7 123.19 0)
 			(effects
 				(font
@@ -8145,7 +7941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403191525_UMW-Youtai-Semiconductor-Co---Ltd--AMS1117-3-3_C347222.pdf"
 			(at 142.24 133.35 0)
 			(effects
 				(font
