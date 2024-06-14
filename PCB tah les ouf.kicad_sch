@@ -2815,6 +2815,177 @@
 				)
 			)
 		)
+		(symbol "SKRKAEE020:SKRKAEE020"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SKRKAEE020"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SKRKAEE020"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.alps.com/prod/info/J/HTML/Tact/SurfaceMount/SKRK/SKRKAEE020.html"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tactile Switches 3.9x2.9x2.0mm 160gf Packaging Temp 80oC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "ALPS Electric"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SKRKAEE020"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "688-SKRKAEE020"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKRKAEE020?qs=MrosSN5%252BUQW89XjXIp8Ugw%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SKRKAEE020_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_DIP_x02"
 			(pin_names
 				(offset 0) hide)
@@ -3024,219 +3195,6 @@
 					(at 7.62 2.54 180)
 					(length 5.08)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Switch:SW_MEC_5E"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0.635 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_MEC_5E"
-				(at 0 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "MEC 5E single pole normally-open tactile switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW*MEC*5G*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_MEC_5E_0_1"
-				(circle
-					(center -1.778 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 3.81) (xy 2.286 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 0 5.588)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 2.54) (xy -2.286 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 2.54) (xy 2.286 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.778 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3862,22 +3820,16 @@
 		)
 	)
 	(junction
-		(at 78.74 152.4)
+		(at 76.2 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "13ce17e3-4eb6-4e29-aa76-4d50c4ace640")
+		(uuid "2dbd9c2d-f1dc-45d0-b76c-c9e024ceecd9")
 	)
 	(junction
 		(at 127 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39862b34-aa98-47cd-ab52-fefc18d218b9")
-	)
-	(junction
-		(at 34.29 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f8d4e38-7a5e-4574-bd45-4cfc0067bdee")
 	)
 	(junction
 		(at 124.46 210.82)
@@ -3904,18 +3856,6 @@
 		(uuid "66269de6-263a-4e85-9263-5d139341cb5b")
 	)
 	(junction
-		(at 53.34 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67f07a30-e771-43c6-ba02-eae43a83c361")
-	)
-	(junction
-		(at 44.45 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ec01414-8d43-4ec9-92df-d5f95a8b7c23")
-	)
-	(junction
 		(at 139.7 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3928,13 +3868,7 @@
 		(uuid "8221d629-83cc-4b41-b2ae-8197efca21d6")
 	)
 	(junction
-		(at 36.83 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a5e01ab-517a-4ca7-8186-dd112ab3f700")
-	)
-	(junction
-		(at 53.34 121.92)
+		(at 59.69 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f110d96-ddfb-4ebe-9c51-24a85293dfc0")
@@ -3958,25 +3892,13 @@
 		(uuid "adad0639-e440-4db4-a3ec-21ddb4106d0b")
 	)
 	(junction
-		(at 68.58 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c885fbd9-1e12-4ba2-a151-3ad0ae022160")
-	)
-	(junction
 		(at 232.41 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6416c26-dd4c-4b32-ad19-679c8cb0f275")
 	)
 	(junction
-		(at 46.99 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8ea77b3-d91d-4878-8fda-9cbc9fad9e6e")
-	)
-	(junction
-		(at 52.07 140.97)
+		(at 46.99 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eeae2af2-1191-4045-8630-8a03342b51a8")
@@ -4033,16 +3955,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 140.97) (xy 46.99 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "024f6092-2365-4b89-ad8d-8382a1f6df8b")
-	)
-	(wire
-		(pts
 			(xy 179.07 210.82) (xy 157.48 210.82)
 		)
 		(stroke
@@ -4083,23 +3995,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 111.76) (xy 53.34 111.76)
+			(xy 53.34 114.3) (xy 59.69 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0e84d85f-694e-421f-9517-379185a9da60")
-	)
-	(wire
-		(pts
-			(xy 44.45 119.38) (xy 44.45 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10432b1f-d8a0-4eff-8ec2-95c03a830743")
 	)
 	(wire
 		(pts
@@ -4113,13 +4015,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 121.92) (xy 34.29 129.54)
+			(xy 41.91 146.05) (xy 41.91 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d6f0b11-4b18-400d-985d-aae2f9ea07ac")
+		(uuid "1b91ea12-0dfc-4af3-a01c-dd3b4af2abb8")
 	)
 	(wire
 		(pts
@@ -4193,6 +4095,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 151.13) (xy 41.91 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ecb94f-5f6b-4a2c-badf-c82a9fb5e24c")
+	)
+	(wire
+		(pts
 			(xy 118.11 62.23) (xy 127 62.23)
 		)
 		(stroke
@@ -4223,17 +4135,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 129.54) (xy 53.34 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "389586e0-632e-438c-baad-9fa63a74c171")
-	)
-	(wire
-		(pts
-			(xy 52.07 140.97) (xy 52.07 142.24)
+			(xy 46.99 146.05) (xy 46.99 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4250,6 +4152,16 @@
 			(type default)
 		)
 		(uuid "4b544885-6c10-4f86-a196-ce7b5da84062")
+	)
+	(wire
+		(pts
+			(xy 59.69 127) (xy 59.69 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d99e45c-eb7b-4523-acaf-968510a9e716")
 	)
 	(wire
 		(pts
@@ -4313,16 +4225,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 143.51) (xy 36.83 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "630fc455-0de9-47b7-a8d5-6ec349fe388c")
-	)
-	(wire
-		(pts
 			(xy 165.1 127) (xy 172.72 127)
 		)
 		(stroke
@@ -4330,16 +4232,6 @@
 			(type default)
 		)
 		(uuid "6686bc0f-8996-4e1a-96d2-20fac27824ae")
-	)
-	(wire
-		(pts
-			(xy 34.29 119.38) (xy 34.29 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66dfeaf5-51cb-423b-ade6-8935dfeca017")
 	)
 	(wire
 		(pts
@@ -4403,7 +4295,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 154.94) (xy 68.58 158.75)
+			(xy 76.2 157.48) (xy 76.2 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4453,7 +4345,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 111.76) (xy 53.34 114.3)
+			(xy 59.69 114.3) (xy 59.69 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4563,7 +4455,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 140.97) (xy 64.77 140.97)
+			(xy 46.99 146.05) (xy 59.69 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4580,16 +4472,6 @@
 			(type default)
 		)
 		(uuid "a1e0f6dc-2254-4a8c-b7c6-6a93334e7935")
-	)
-	(wire
-		(pts
-			(xy 78.74 152.4) (xy 78.74 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a25af224-7b27-431f-933e-5341fc7e56af")
 	)
 	(wire
 		(pts
@@ -4633,6 +4515,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 127) (xy 59.69 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1685a61-e5f4-4620-9dcd-cdbda71cefae")
+	)
+	(wire
+		(pts
 			(xy 179.07 220.98) (xy 179.07 210.82)
 		)
 		(stroke
@@ -4653,7 +4545,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 130.81) (xy 53.34 129.54)
+			(xy 59.69 133.35) (xy 59.69 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4663,7 +4555,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 121.92) (xy 67.31 121.92)
+			(xy 59.69 124.46) (xy 73.66 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4703,7 +4595,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 149.86) (xy 52.07 147.32)
+			(xy 46.99 154.94) (xy 46.99 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4783,16 +4675,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 121.92) (xy 53.34 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfe0c829-2a09-41ca-a372-149e49686234")
-	)
-	(wire
-		(pts
 			(xy 335.28 176.53) (xy 335.28 184.15)
 		)
 		(stroke
@@ -4823,7 +4705,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 140.97) (xy 52.07 140.97)
+			(xy 41.91 146.05) (xy 46.99 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4863,16 +4745,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 152.4) (xy 68.58 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efb56900-f2cd-4540-9333-a7562be3558c")
-	)
-	(wire
-		(pts
 			(xy 232.41 220.98) (xy 232.41 210.82)
 		)
 		(stroke
@@ -4890,16 +4762,6 @@
 			(type default)
 		)
 		(uuid "f2d58b5d-75ad-4ebd-b45a-3dad88f993d7")
-	)
-	(wire
-		(pts
-			(xy 36.83 140.97) (xy 36.83 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2fffbf7-cbd1-4498-ae4b-59f1c4052470")
 	)
 	(wire
 		(pts
@@ -5075,25 +4937,6 @@
 		)
 		(uuid ee5ecbe4-7ee4-447b-a853-bc44329aea5d)
 	)
-	(text_box "Condensateur de lissage sur 3.3V"
-		(exclude_from_sim no)
-		(at 162.56 157.48 0)
-		(size 15.24 15.24)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "3eb1b9fa-e572-417d-853b-edc083b77bbf")
-	)
 	(text "https://www.youtube.com/watch?v=KtPc4XwbiKA&ab_channel=BlagojeMrkic"
 		(exclude_from_sim no)
 		(at 52.324 15.494 0)
@@ -5259,7 +5102,7 @@
 		(uuid "19dbc3e6-d472-440b-9497-453364fd5ce4")
 	)
 	(label "GPIO0"
-		(at 64.77 140.97 0)
+		(at 59.69 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5314,7 +5157,7 @@
 		(uuid "6599e7ec-c923-4455-bd64-d714cdf2e76f")
 	)
 	(label "ESP32_EN"
-		(at 67.31 121.92 0)
+		(at 73.66 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5358,7 +5201,7 @@
 		(uuid "a79f4c3c-8863-4347-b4e2-76a27f963a3f")
 	)
 	(label "3V3"
-		(at 46.99 111.76 0)
+		(at 53.34 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5436,7 +5279,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 53.34 125.73 0)
+		(at 59.69 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5445,7 +5288,7 @@
 		(fields_autoplaced yes)
 		(uuid "013770f7-ff91-4ba2-9e61-47639aca97c2")
 		(property "Reference" "C2"
-			(at 57.15 124.4599 0)
+			(at 63.5 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,7 +5297,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 57.15 126.9999 0)
+			(at 63.5 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5463,7 +5306,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.3052 129.54 0)
+			(at 60.6552 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5472,7 +5315,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 125.73 0)
+			(at 59.69 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5481,7 +5324,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 53.34 125.73 0)
+			(at 59.69 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6186,7 +6029,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 158.75 0)
+		(at 76.2 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6195,7 +6038,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f3db04b-966f-4d92-b3dc-a24852fbeb88")
 		(property "Reference" "#PWR016"
-			(at 68.58 165.1 0)
+			(at 76.2 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6204,7 +6047,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 163.83 0)
+			(at 76.2 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6212,7 +6055,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 158.75 0)
+			(at 76.2 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6221,7 +6064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 158.75 0)
+			(at 76.2 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6230,7 +6073,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 158.75 0)
+			(at 76.2 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6318,7 +6161,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 52.07 146.05 0)
+		(at 46.99 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6327,7 +6170,7 @@
 		(fields_autoplaced yes)
 		(uuid "235c607e-3bab-4dca-b1ce-85f5d960a6c6")
 		(property "Reference" "C3"
-			(at 55.88 144.7799 0)
+			(at 50.8 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6336,7 +6179,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 55.88 147.3199 0)
+			(at 50.8 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6345,7 +6188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.0352 149.86 0)
+			(at 47.9552 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6354,7 +6197,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 146.05 0)
+			(at 46.99 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6363,7 +6206,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 52.07 146.05 0)
+			(at 46.99 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6381,6 +6224,72 @@
 			(project "PCB tah les ouf"
 				(path "/ea97f20c-9bc4-49f4-bc03-d8d68656df8b"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23afc975-7233-4ff7-9d47-979864dcf831")
+		(property "Reference" "#PWR017"
+			(at 35.56 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7591cb8d-e6f6-49c9-8edb-09234c9e7b25")
+		)
+		(instances
+			(project "PCB tah les ouf"
+				(path "/ea97f20c-9bc4-49f4-bc03-d8d68656df8b"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6594,7 +6503,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 147.32 0)
+		(at 46.99 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6603,7 +6512,7 @@
 		(fields_autoplaced yes)
 		(uuid "310221c9-6479-4d74-b737-84d66bc90cbd")
 		(property "Reference" "#PWR012"
-			(at 52.07 153.67 0)
+			(at 46.99 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6612,7 +6521,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 152.4 0)
+			(at 46.99 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6620,7 +6529,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 147.32 0)
+			(at 46.99 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6629,7 +6538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 147.32 0)
+			(at 46.99 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6638,7 +6547,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 147.32 0)
+			(at 46.99 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6723,80 +6632,6 @@
 			(project "PCB tah les ouf"
 				(path "/ea97f20c-9bc4-49f4-bc03-d8d68656df8b"
 					(reference "BZ1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5E")
-		(at 73.66 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3cdd9719-4b0e-4a37-a103-4f139729d66d")
-		(property "Reference" "BUILTIN1"
-			(at 73.66 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5E"
-			(at 73.66 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at 73.66 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 73.66 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 73.66 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "851faa6e-5d53-4613-a610-21c056e4c310")
-		)
-		(pin "2"
-			(uuid "34f723d4-1af9-44ad-9b2d-a39b25d5bbac")
-		)
-		(pin "1"
-			(uuid "222d7dc5-9c7b-45ab-a136-2251b5ae172c")
-		)
-		(pin "3"
-			(uuid "ff7b3dda-f0b1-42ef-8de3-13756fe13363")
-		)
-		(instances
-			(project "PCB tah les ouf"
-				(path "/ea97f20c-9bc4-49f4-bc03-d8d68656df8b"
-					(reference "BUILTIN1")
 					(unit 1)
 				)
 			)
@@ -7243,7 +7078,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 53.34 118.11 0)
+		(at 59.69 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7251,7 +7086,7 @@
 		(dnp no)
 		(uuid "6a63294a-6af6-4063-a646-25778f1976d3")
 		(property "Reference" "R3"
-			(at 55.88 116.8399 0)
+			(at 62.23 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7260,7 +7095,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 55.372 118.872 0)
+			(at 61.722 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7269,7 +7104,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 51.562 118.11 90)
+			(at 57.912 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7278,7 +7113,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 118.11 0)
+			(at 59.69 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7287,7 +7122,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 53.34 118.11 0)
+			(at 59.69 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7379,16 +7214,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 130.81 0)
+		(at 59.69 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "818b310c-9743-47be-a3b3-a864fc936bdb")
 		(property "Reference" "#PWR010"
-			(at 53.34 137.16 0)
+			(at 59.69 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7397,7 +7231,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 135.89 0)
+			(at 59.69 137.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7405,7 +7239,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 130.81 0)
+			(at 59.69 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7414,7 +7248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 130.81 0)
+			(at 59.69 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7423,7 +7257,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 130.81 0)
+			(at 59.69 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7508,154 +7342,6 @@
 			(project "PCB tah les ouf"
 				(path "/ea97f20c-9bc4-49f4-bc03-d8d68656df8b"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5E")
-		(at 41.91 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "862894de-4692-4585-b7af-c850227837d9")
-		(property "Reference" "BOOT1"
-			(at 41.91 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5E"
-			(at 41.91 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at 41.91 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 41.91 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 41.91 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c0f3fe05-6b46-4184-994c-4e56a461d8bc")
-		)
-		(pin "2"
-			(uuid "6bf8d475-2a62-46b2-bbff-c4bfbb091296")
-		)
-		(pin "1"
-			(uuid "ab39477f-c64b-49b6-8c2b-d76fd5edd7ed")
-		)
-		(pin "3"
-			(uuid "3c907d75-bf93-4a42-bb76-5e1b917322ea")
-		)
-		(instances
-			(project "PCB tah les ouf"
-				(path "/ea97f20c-9bc4-49f4-bc03-d8d68656df8b"
-					(reference "BOOT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5E")
-		(at 39.37 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98e423a8-49c6-4d18-9c39-c993c8148760")
-		(property "Reference" "RST1"
-			(at 39.37 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5E"
-			(at 39.37 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at 39.37 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 39.37 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 39.37 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "83778d0c-2375-4717-a7c5-3c5d3bf52d6e")
-		)
-		(pin "2"
-			(uuid "7326fc6b-2c89-4867-9605-79fa8eeb3638")
-		)
-		(pin "1"
-			(uuid "42926fcf-9547-4269-a5b8-5d15bea3dbd9")
-		)
-		(pin "3"
-			(uuid "a35213f3-f6b5-4c73-bbe7-783e1cb72648")
-		)
-		(instances
-			(project "PCB tah les ouf"
-				(path "/ea97f20c-9bc4-49f4-bc03-d8d68656df8b"
-					(reference "RST1")
 					(unit 1)
 				)
 			)
@@ -7841,6 +7527,148 @@
 		)
 	)
 	(symbol
+		(lib_id "SKRKAEE020:SKRKAEE020")
+		(at 44.45 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3d6af68-3ca0-449a-9a30-d11903170a7b")
+		(property "Reference" "S2"
+			(at 50.8 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RST"
+			(at 50.8 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SKRKAEE020"
+			(at 139.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.alps.com/prod/info/J/HTML/Tact/SurfaceMount/SKRK/SKRKAEE020.html"
+			(at 239.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 3.9x2.9x2.0mm 160gf Packaging Temp 80oC"
+			(at 44.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2"
+			(at 439.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 539.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKRKAEE020"
+			(at 639.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKRKAEE020"
+			(at 739.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKRKAEE020?qs=MrosSN5%252BUQW89XjXIp8Ugw%3D%3D"
+			(at 839.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 939.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1039.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e2eaa031-93e0-413b-a2e1-ee9f84756f23")
+		)
+		(pin "1"
+			(uuid "f1b36665-d107-40a5-8ce9-7f124c5253ab")
+		)
+		(instances
+			(project "PCB tah les ouf"
+				(path "/ea97f20c-9bc4-49f4-bc03-d8d68656df8b"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 48.26 82.55 0)
 		(unit 1)
@@ -7978,6 +7806,148 @@
 		)
 	)
 	(symbol
+		(lib_id "SKRKAEE020:SKRKAEE020")
+		(at 35.56 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b43fd28d-4dd7-41e2-a2bc-76e8a27e0c37")
+		(property "Reference" "S1"
+			(at 41.91 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BOOT"
+			(at 41.91 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SKRKAEE020"
+			(at 130.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.alps.com/prod/info/J/HTML/Tact/SurfaceMount/SKRK/SKRKAEE020.html"
+			(at 230.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 3.9x2.9x2.0mm 160gf Packaging Temp 80oC"
+			(at 35.56 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2"
+			(at 430.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 530.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKRKAEE020"
+			(at 630.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKRKAEE020"
+			(at 730.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKRKAEE020?qs=MrosSN5%252BUQW89XjXIp8Ugw%3D%3D"
+			(at 830.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 930.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1030.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7574f8df-2273-4dba-a50b-a0f4b79daea4")
+		)
+		(pin "1"
+			(uuid "3ac41eb1-fb86-42b6-aee2-21c244ee0095")
+		)
+		(instances
+			(project "PCB tah les ouf"
+				(path "/ea97f20c-9bc4-49f4-bc03-d8d68656df8b"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 71.12 57.15 0)
 		(unit 1)
@@ -8047,17 +8017,55 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 36.83 147.32 0)
+		(lib_id "SKRKAEE020:SKRKAEE020")
+		(at 76.2 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bc4d613b-0def-4287-9dbf-f2c2d5eb3c37")
-		(property "Reference" "#PWR011"
-			(at 36.83 153.67 0)
+		(uuid "ba8116cc-5564-454b-a0c1-ad159f23c2f5")
+		(property "Reference" "S3"
+			(at 82.55 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BUILTIN"
+			(at 82.55 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SKRKAEE020"
+			(at 171.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.alps.com/prod/info/J/HTML/Tact/SurfaceMount/SKRK/SKRKAEE020.html"
+			(at 271.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 3.9x2.9x2.0mm 160gf Packaging Temp 80oC"
+			(at 76.2 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8065,48 +8073,86 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 36.83 152.4 0)
+		(property "Height" "2"
+			(at 471.12 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 36.83 147.32 0)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 571.12 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 147.32 0)
+		(property "Manufacturer_Part_Number" "SKRKAEE020"
+			(at 671.12 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
+		)
+		(property "Mouser Part Number" "688-SKRKAEE020"
+			(at 771.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKRKAEE020?qs=MrosSN5%252BUQW89XjXIp8Ugw%3D%3D"
+			(at 871.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 971.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1071.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c12f4e6c-f2e1-4c50-aeca-6093b77fce36")
 		)
 		(pin "1"
-			(uuid "6b14ca42-a68d-44bb-b140-f65d18a767ce")
+			(uuid "25b85ebb-0fb7-443b-8e8e-9b3bd62aac4e")
 		)
 		(instances
 			(project "PCB tah les ouf"
 				(path "/ea97f20c-9bc4-49f4-bc03-d8d68656df8b"
-					(reference "#PWR011")
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -8647,6 +8693,72 @@
 			(project "PCB tah les ouf"
 				(path "/ea97f20c-9bc4-49f4-bc03-d8d68656df8b"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2794b70-5e60-4871-8af2-6822509560a1")
+		(property "Reference" "#PWR015"
+			(at 44.45 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62d65ad3-93ea-4ac8-857f-d8848765b196")
+		)
+		(instances
+			(project "PCB tah les ouf"
+				(path "/ea97f20c-9bc4-49f4-bc03-d8d68656df8b"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
