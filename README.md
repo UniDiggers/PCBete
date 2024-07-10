@@ -1,2 +1,2 @@
 # PCBete
-Création d'un PCB tah les ouf pour la robotique
+Création d'un PCB pour la robotique
