@@ -475,10 +475,10 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "3V3",
+        "name": "3.3V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -492,12 +492,29 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Alimentation",
+        "name": "5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.6,
-        "via_diameter": 1.0,
-        "via_drill": 0.4,
+        "track_width": 1.0,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Data Line",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -512,7 +529,7 @@
         "name": "MOTOR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.6,
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -525,68 +542,72 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "MOTOR",
+        "netclass": "Default",
         "pattern": "MOTORA1"
       },
       {
-        "netclass": "MOTOR",
+        "netclass": "Default",
         "pattern": "MOTORA2"
       },
       {
-        "netclass": "Alimentation",
+        "netclass": "5V",
         "pattern": "VCC_5V"
       },
       {
-        "netclass": "MOTOR",
+        "netclass": "Default",
         "pattern": "MOTORA3"
       },
       {
-        "netclass": "MOTOR",
+        "netclass": "Default",
         "pattern": "MOTORA4"
       },
       {
-        "netclass": "Alimentation",
+        "netclass": "5V",
         "pattern": "VCC_5Vin"
       },
       {
-        "netclass": "Alimentation",
+        "netclass": "Default",
         "pattern": "GND"
       },
       {
-        "netclass": "3V3",
+        "netclass": "3.3V",
         "pattern": "3V3"
       },
       {
-        "netclass": "MOTOR",
+        "netclass": "Default",
         "pattern": "MOTORB1"
       },
       {
-        "netclass": "MOTOR",
+        "netclass": "Default",
         "pattern": "MOTORB2"
       },
       {
-        "netclass": "MOTOR",
+        "netclass": "Default",
         "pattern": "MOTORB3"
       },
       {
-        "netclass": "MOTOR",
+        "netclass": "Default",
         "pattern": "MOTORB4"
       },
       {
-        "netclass": "MOTOR",
+        "netclass": "Default",
         "pattern": "MOTORC1"
       },
       {
-        "netclass": "MOTOR",
+        "netclass": "Default",
         "pattern": "MOTORC2"
       },
       {
-        "netclass": "MOTOR",
+        "netclass": "Default",
         "pattern": "MOTORC3"
       },
       {
-        "netclass": "MOTOR",
+        "netclass": "Default",
         "pattern": "MOTORC4"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "VCC_5Vout"
       }
     ]
   },
@@ -790,7 +811,7 @@
   "sheets": [
     [
       "ea97f20c-9bc4-49f4-bc03-d8d68656df8b",
-      "Root"
+      "Racine"
     ]
   ],
   "text_variables": {}
