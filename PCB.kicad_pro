@@ -492,12 +492,29 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "5V",
+        "name": "5VIN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
+        "track_width": 0.4,
         "via_diameter": 0.6,
         "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "5VOUT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.8,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       },
       {
@@ -550,7 +567,7 @@
         "pattern": "MOTORA2"
       },
       {
-        "netclass": "5V",
+        "netclass": "5VOUT",
         "pattern": "VCC_5V"
       },
       {
@@ -562,7 +579,7 @@
         "pattern": "MOTORA4"
       },
       {
-        "netclass": "5V",
+        "netclass": "5VIN",
         "pattern": "VCC_5Vin"
       },
       {
@@ -606,8 +623,32 @@
         "pattern": "MOTORC4"
       },
       {
-        "netclass": "5V",
+        "netclass": "5VOUT",
         "pattern": "VCC_5Vout"
+      },
+      {
+        "netclass": "Data Line",
+        "pattern": "USB_P_in+"
+      },
+      {
+        "netclass": "Data Line",
+        "pattern": "USB_N_in+"
+      },
+      {
+        "netclass": "Data Line",
+        "pattern": "USB_P"
+      },
+      {
+        "netclass": "Data Line",
+        "pattern": "USB_N"
+      },
+      {
+        "netclass": "Data Line",
+        "pattern": "TX0+"
+      },
+      {
+        "netclass": "Data Line",
+        "pattern": "RX0-"
       }
     ]
   },
@@ -811,7 +852,7 @@
   "sheets": [
     [
       "ea97f20c-9bc4-49f4-bc03-d8d68656df8b",
-      "Racine"
+      "Root"
     ]
   ],
   "text_variables": {}
