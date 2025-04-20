@@ -478,7 +478,7 @@
         "name": "3.3V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.5,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -495,7 +495,7 @@
         "name": "5VIN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
+        "track_width": 1.1,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -512,7 +512,7 @@
         "name": "5VOUT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.8,
+        "track_width": 1.1,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -546,7 +546,7 @@
         "name": "MOTOR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.6,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -559,11 +559,11 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
+        "netclass": "MOTOR",
         "pattern": "MOTORA1"
       },
       {
-        "netclass": "Default",
+        "netclass": "MOTOR",
         "pattern": "MOTORA2"
       },
       {
@@ -571,11 +571,11 @@
         "pattern": "VCC_5V"
       },
       {
-        "netclass": "Default",
+        "netclass": "MOTOR",
         "pattern": "MOTORA3"
       },
       {
-        "netclass": "Default",
+        "netclass": "MOTOR",
         "pattern": "MOTORA4"
       },
       {
@@ -591,35 +591,15 @@
         "pattern": "3V3"
       },
       {
-        "netclass": "Default",
-        "pattern": "MOTORB1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "MOTORB2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "MOTORB3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "MOTORB4"
-      },
-      {
-        "netclass": "Default",
+        "netclass": "MOTOR",
         "pattern": "MOTORC1"
       },
       {
-        "netclass": "Default",
-        "pattern": "MOTORC2"
-      },
-      {
-        "netclass": "Default",
+        "netclass": "MOTOR",
         "pattern": "MOTORC3"
       },
       {
-        "netclass": "Default",
+        "netclass": "MOTOR",
         "pattern": "MOTORC4"
       },
       {
@@ -649,6 +629,10 @@
       {
         "netclass": "Data Line",
         "pattern": "RX0-"
+      },
+      {
+        "netclass": "MOTOR",
+        "pattern": "MOTORC2"
       }
     ]
   },
@@ -852,7 +836,7 @@
   "sheets": [
     [
       "ea97f20c-9bc4-49f4-bc03-d8d68656df8b",
-      "Root"
+      "Racine"
     ]
   ],
   "text_variables": {}
